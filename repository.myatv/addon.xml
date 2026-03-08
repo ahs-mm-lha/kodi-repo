@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.myatv"
+       name="MyATV Repository"
+       version="1.0.0"
+       provider-name="MyATV">
+    <extension point="xbmc.addon.repository" name="MyATV Repository">
+        <dir>
+            <info compressed="false">https://myatv-iptv.github.io/kodi-repo/zips/addons.xml</info>
+            <checksum>https://myatv-iptv.github.io/kodi-repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://myatv-iptv.github.io/kodi-repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">MyATV IPTV Repository</summary>
+        <description lang="en">Install and auto-update MyATV addons including Cricket Live with 28+ verified live TV channels covering Cricket, News, Documentaries, Movies, Kids and more.</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
