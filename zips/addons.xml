@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.video.cricket.live"
        name="Cricket Live"
-       version="3.1.0"
+       version="3.2.0"
        provider-name="MyATV">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
